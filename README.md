@@ -53,7 +53,7 @@ JioSaavn API can be deployed to either Cloudflare Workers or Vercel. Below are t
 
 ### Cloudflare Workers
 
-[![Deploy with Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/salman-dev-app/jiosaavn-api-pro)
+[![Deploy with Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ryoaonetsuki/jiosaavn-api-pro)
 
 ### Vercel
 
