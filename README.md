@@ -5,8 +5,7 @@ An extended TypeScript/Bun API implementation for working with JioSaavn music da
 ## Requirements
 
 - Bun
-- Node-compatible development environment when required by the tooling
-- Wrangler for Cloudflare deployment if deploying the service there
+- Wrangler for Cloudflare deployment when required
 
 ## Installation
 
@@ -22,15 +21,10 @@ bun install
 bun run dev
 ```
 
-Build:
+Build and start:
 
 ```bash
 bun run build
-```
-
-Start the built server:
-
-```bash
 bun start
 ```
 
@@ -44,18 +38,14 @@ bun run format
 
 ## Deployment
 
-The repository provides a Wrangler deployment script:
+The project provides a Wrangler deployment script:
 
 ```bash
 bun run deploy
 ```
 
-Review the Wrangler configuration and required environment variables before deploying.
+Review Wrangler configuration and required environment variables first.
 
-## API Documentation
+## API
 
-Check the source modules and API reference configuration for the currently available routes and response schemas.
-
-## Notes
-
-The API depends on an external music service, so upstream changes may affect availability.
+Check the source modules and API reference configuration for the current routes and response schemas.
